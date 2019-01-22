@@ -16,8 +16,46 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<springframework.version>5.0.7.RELEASE</springframework.version>
 		<springsecurity.version>5.0.6.RELEASE</springsecurity.version>
-		<springsecurityoauth2.version>2.3.3.RELEASE</springsecurityoauth2.version>
+		<springsecurityoauth2.version>2.3.4.RELEASE</springsecurityoauth2.version>
 	</properties>
+	
+	<name>Anteros Security Store</name>
+	<description>
+         Anteros Security Store for Java.
+    </description>
+	<organization>
+		<name>Anteros Tecnologia</name>
+		<url>http://www.anteros.com.br</url>
+	</organization>
+	<url>http://github.com/anterostecnologia</url>
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+			<comments>A business-friendly OSS license</comments>
+		</license>
+	</licenses>
+	<scm>
+		<connection>scm:git:git@github.com:anterostecnologia/anterossecuritystore.git</connection>
+		<developerConnection>scm:git:git@github.com:anterostecnologia/anterossecuritystore.git</developerConnection>
+		<url>https://github.com/anterostecnologia/anterossecuritystore</url>
+	</scm>
+	
+	<developers>
+		<developer>
+			<id>edson</id>
+			<name>Edson Martins</name>
+			<email>edsonmartins2005@gmail.com</email>
+			<organization>Anteros Tecnologia</organization>
+			<organizationUrl>http://www.anteros.com.br</organizationUrl>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+		</developer>
+	</developers>
+	
 
 	<dependencies>
 		<dependency>
@@ -157,7 +195,7 @@
 								</execution>
 							</executions>
 							<configuration>
-								<additionalparam>-Xdoclint:none</additionalparam>
+								<doclint>none</doclint>
 							</configuration>
 						</plugin>
 					</plugins>
@@ -224,7 +262,7 @@
 								</execution>
 							</executions>
 							<configuration>
-								<additionalparam>-Xdoclint:none</additionalparam>
+								<doclint>none</doclint>
 							</configuration>
 						</plugin>
 					</plugins>
