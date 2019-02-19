@@ -9,6 +9,8 @@ public interface IUser {
 	public String getLogin();
 
 	public String getPassword();
+	
+	public String getAvatar();
 
 	public boolean isPasswordNeverExpire();
 
