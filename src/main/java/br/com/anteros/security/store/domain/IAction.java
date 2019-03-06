@@ -2,7 +2,7 @@ package br.com.anteros.security.store.domain;
 
 public interface IAction {
 	
-	public String getId();
+	public String getActionId();
 
 	public IResource getResource();
 

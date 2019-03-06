@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface IResource {
 
-	public String getId();
+	public String getResourceId();
 
 	public ISystem getSystem();
 

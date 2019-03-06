@@ -4,7 +4,7 @@ import java.util.Set;
 
 public interface IUser {
 
-	public String getId();
+	public String getUserId();
 
 	public String getLogin();
 

@@ -4,7 +4,7 @@ import java.util.Set;
 
 public interface IProfile {
 	
-	public String getId();
+	public String getProfileId();
 
 	public Set<IAction> getActionsList();
 
