@@ -2,6 +2,8 @@ package br.com.anteros.security.store.domain;
 
 import java.util.Set;
 
+import org.codehaus.jackson.annotate.JsonIgnore;
+
 public interface IUser {
 
 	public String getUserId();
@@ -20,6 +22,7 @@ public interface IUser {
 
 	public boolean isAdministrator();
 
+	@JsonIgnore
 	public Set<IAction> getActionList();
 
 	public IProfile getUserProfile();
