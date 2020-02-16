@@ -81,6 +81,8 @@ public interface SecurityDataStore {
 	public ClientDetails loadClientByClientId(String clientId);
 	
 	public void initializeCurrentSession() throws Exception;
+	
+	public void clearCurrentSession() throws Exception;
 
 
 
