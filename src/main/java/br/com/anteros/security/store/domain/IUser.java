@@ -2,7 +2,9 @@ package br.com.anteros.security.store.domain;
 
 import java.util.Set;
 
-import org.codehaus.jackson.annotate.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+
 
 public interface IUser {
 
