@@ -14,7 +14,7 @@ public interface IUser {
 
 	public String getPassword();
 	
-	public String getAvatar();
+	public byte[] getAvatar();
 
 	public boolean isPasswordNeverExpire();
 
