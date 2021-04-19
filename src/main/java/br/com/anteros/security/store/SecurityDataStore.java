@@ -35,6 +35,8 @@ public interface SecurityDataStore {
 	public void removeActionByAllUsers(IAction act) throws Exception;
 
 	public IUser getUserByUserName(String username);
+	
+	public IUser getUserByUserNameWithPassword(String username);
 
 	public void addApprovals(Collection<Approval> approvals);
 
